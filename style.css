@@ -174,10 +174,12 @@ address { font-style: normal; }
   letter-spacing: 0.06em;
 }
 
-.nav-logo img {
+.nav-logo img,
+.nav-logo .logo-svg {
   height: 28px;
   width: auto;
   display: block;
+  flex-shrink: 0;
 }
 
 .nav-menu {
@@ -854,10 +856,12 @@ address { font-style: normal; }
   gap: 1rem;
 }
 
-.footer-brand img {
+.footer-brand img,
+.footer-brand .logo-svg {
   height: 36px;
   width: auto;
   display: block;
+  flex-shrink: 0;
 }
 
 .footer-name {
