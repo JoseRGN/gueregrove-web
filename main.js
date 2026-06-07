@@ -111,6 +111,8 @@ if (form) {
         btn.textContent        = 'Mensaje enviado ✓';
         formStatus.textContent = 'Gracias, te contactamos pronto.';
         form.reset();
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ event: 'form_submit', form_name: 'contact' });
       })
       .catch(() => {
         btn.textContent        = 'Enviar Mensaje';
