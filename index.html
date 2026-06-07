@@ -453,8 +453,11 @@
             </address>
           </div>
 
-          <form class="contact-form" id="contact-form" name="contact" action="/" method="POST" netlify novalidate aria-label="Formulario de contacto">
+          <form class="contact-form" id="contact-form" name="contact" action="/" method="POST" netlify netlify-honeypot="bot-field" novalidate aria-label="Formulario de contacto">
             <input type="hidden" name="form-name" value="contact">
+            <p style="position:absolute;left:-9999px;opacity:0;" aria-hidden="true">
+              <label>No completar: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+            </p>
             <div class="form-group">
               <label for="nombre">Nombre <span aria-hidden="true">*</span></label>
               <input type="text" id="nombre" name="nombre" required autocomplete="name" placeholder="Tu nombre completo">
