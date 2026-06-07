@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#000000"/>
+  <!-- GG mark: scaled to 460w × 224h, centered in 512×512 -->
+  <svg x="26" y="144" width="460" height="224" viewBox="0 0 206 100">
+    <defs>
+      <clipPath id="FL">
+        <polygon points="14,0 86,0 100,14 100,86 86,100 14,100 0,86 0,14"/>
+      </clipPath>
+      <clipPath id="FR">
+        <polygon points="120,0 192,0 206,14 206,86 192,100 120,100 106,86 106,14"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#FL)" fill="#F2F2F2">
+      <rect width="100" height="21"/>
+      <rect width="21" height="100"/>
+      <rect y="79" width="100" height="21"/>
+      <rect x="60" y="58" width="40" height="42"/>
+    </g>
+    <g clip-path="url(#FR)" fill="#F2F2F2">
+      <rect x="106" width="100" height="21"/>
+      <rect x="185" width="21" height="100"/>
+      <rect x="106" y="79" width="100" height="21"/>
+      <rect x="106" y="58" width="40" height="42"/>
+    </g>
+  </svg>
+</svg>
