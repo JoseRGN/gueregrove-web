@@ -81,7 +81,7 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
 });
 
 
-// ---- FORMULARIO: feedback básico ----
+// ---- FORMULARIO: Netlify Forms ----
 const form       = document.getElementById('contact-form');
 const formStatus = document.getElementById('form-status');
 
@@ -89,7 +89,7 @@ if (form) {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    const btn = form.querySelector('button[type="submit"]');
+    const btn    = form.querySelector('button[type="submit"]');
     const nombre = form.querySelector('#nombre').value.trim();
     const email  = form.querySelector('#email').value.trim();
 
@@ -99,14 +99,24 @@ if (form) {
     }
 
     btn.textContent = 'Enviando...';
-    btn.disabled = true;
+    btn.disabled    = true;
+    formStatus.textContent = '';
 
-    // Simula envío (reemplazar con fetch real)
-    setTimeout(() => {
-      btn.textContent = 'Mensaje enviado ✓';
-      formStatus.textContent = 'Gracias, te contactamos pronto.';
-      form.reset();
-    }, 1200);
+    fetch('/', {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body:    new URLSearchParams(new FormData(form)).toString(),
+    })
+      .then(() => {
+        btn.textContent        = 'Mensaje enviado ✓';
+        formStatus.textContent = 'Gracias, te contactamos pronto.';
+        form.reset();
+      })
+      .catch(() => {
+        btn.textContent        = 'Enviar Mensaje';
+        btn.disabled           = false;
+        formStatus.textContent = 'Hubo un error. Intentá nuevamente o escribinos a hola@gueregrove.com';
+      });
   });
 }
 

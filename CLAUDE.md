@@ -64,4 +64,4 @@ This site is a marketing agency that practices what it preaches. Any change must
 
 ## Contact form
 
-Currently mocks submission with `setTimeout`. To wire up a real backend, replace the `setTimeout` block in `main.js` with a `fetch()` POST. The form has `action="#" method="POST" novalidate` — update `action` when a real endpoint exists.
+Submits via Netlify Forms (AJAX). The form has `name="contact" data-netlify="true" action="/"` plus a hidden `form-name` field required for AJAX submissions. `main.js` uses `fetch()` POST with `URLSearchParams(FormData)` — no additional backend needed once deployed to Netlify.
