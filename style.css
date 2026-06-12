@@ -182,6 +182,26 @@ address { font-style: normal; }
   flex-shrink: 0;
 }
 
+.logo-gg {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.75rem;
+  color: var(--cream);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo-gg--footer {
+  font-size: 2.25rem;
+}
+
+.logo-gg-mirror {
+  display: inline-block;
+  transform: scaleX(-1);
+}
+
 .nav-menu {
   display: flex;
   align-items: center;

@@ -1,0 +1,4 @@
+node_modules/
+dev/
+assets/screenshots/
+*.png.map
