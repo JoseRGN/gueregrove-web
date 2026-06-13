@@ -1,0 +1,385 @@
+{
+  "published": [],
+  "queue": [
+    {
+      "slug": "landing-pages-que-convierten",
+      "tag": "Conversión",
+      "title": "Landing pages que convierten: los 7 elementos que no podés ignorar",
+      "metaDescription": "Una landing page mal diseñada es dinero quemado. Conocé los elementos que determinan si un visitante convierte o rebota — con datos reales de CRO.",
+      "excerpt": "El 96% de los visitantes no convierte en su primera visita. Una landing page bien diseñada puede cambiar eso. Acá los elementos que marcan la diferencia.",
+      "readingTime": "7 min",
+      "keyFocus": "landing page optimization, conversion rate, CRO, UX, above the fold, CTA design",
+      "cta": {
+        "kicker": "¿Tu landing page convierte lo que debería?",
+        "headline": "Auditamos tu página sin costo.",
+        "description": "Revisamos cada elemento y te mostramos exactamente qué está impidiendo que los visitantes conviertan. Sin compromiso.",
+        "button": "Solicitar auditoría gratuita"
+      },
+      "related": [
+        { "slug": "metricas-marketing-digital", "tag": "Analytics", "date": "2026-04-07", "title": "Las métricas de marketing que realmente importan", "excerpt": "Likes, seguidores e impresiones no pagan facturas. Estas sí." },
+        { "slug": "google-ads-que-convierte", "tag": "Google Ads", "date": "2026-05-19", "title": "Cómo crear campañas de Google Ads que convierten", "excerpt": "El 60% del presupuesto en Google Ads se desperdicia. Estos son los errores más comunes." }
+      ]
+    },
+    {
+      "slug": "email-marketing-para-empresas",
+      "tag": "Email Marketing",
+      "title": "Email marketing para empresas: cómo construir una lista que convierte",
+      "metaDescription": "El email sigue siendo el canal con mayor ROI en marketing digital. Pero solo si sabés cómo usarlo. Guía práctica de email marketing para negocios.",
+      "excerpt": "El email tiene un ROI promedio de $36 por cada $1 invertido. Pero el 80% de las empresas lo usa mal. Acá la estrategia real.",
+      "readingTime": "8 min",
+      "keyFocus": "email marketing strategy, list building, automation, newsletters, ROI, open rates",
+      "cta": {
+        "kicker": "¿Querés implementar email marketing en tu negocio?",
+        "headline": "Diseñamos tu estrategia de email desde cero.",
+        "description": "Te ayudamos a construir una lista, diseñar flujos de automatización y convertir suscriptores en clientes.",
+        "button": "Hablemos de tu estrategia"
+      },
+      "related": [
+        { "slug": "metricas-marketing-digital", "tag": "Analytics", "date": "2026-04-07", "title": "Las métricas de marketing que realmente importan", "excerpt": "Likes, seguidores e impresiones no pagan facturas. Estas sí." },
+        { "slug": "redes-sociales-para-empresas", "tag": "Redes Sociales", "date": "2026-05-05", "title": "Redes sociales para empresas: deja de publicar y empieza a vender", "excerpt": "La mayoría publica sin estrategia y se pregunta por qué no crece." }
+      ]
+    },
+    {
+      "slug": "remarketing-como-recuperar-clientes",
+      "tag": "Google Ads",
+      "title": "Remarketing: cómo recuperar el 97% de visitantes que se fueron sin comprar",
+      "metaDescription": "El remarketing es la herramienta más rentable de Google Ads. Aprendé cómo configurarlo correctamente y recuperar clientes que ya mostraron interés.",
+      "excerpt": "El 97% de los visitantes abandona tu sitio sin comprar. El remarketing te permite seguirlos y traerlos de vuelta cuando están listos para decidir.",
+      "readingTime": "6 min",
+      "keyFocus": "remarketing, retargeting, Google Ads remarketing lists, RLSA, dynamic remarketing",
+      "cta": {
+        "kicker": "¿Estás perdiendo clientes que ya visitaron tu sitio?",
+        "headline": "Configuramos tu remarketing desde el día uno.",
+        "description": "Te ayudamos a recuperar visitantes con campañas personalizadas según su comportamiento en tu sitio. Sin presupuesto mínimo.",
+        "button": "Activar mi remarketing"
+      },
+      "related": [
+        { "slug": "google-ads-que-convierte", "tag": "Google Ads", "date": "2026-05-19", "title": "Cómo crear campañas de Google Ads que convierten", "excerpt": "El 60% del presupuesto en Google Ads se desperdicia. Estos son los errores más comunes." },
+        { "slug": "seo-vs-sem", "tag": "Estrategia", "date": "2026-04-21", "title": "SEO vs SEM: cuándo usar cada estrategia", "excerpt": "La respuesta honesta depende. Pero existen reglas claras para elegir." }
+      ]
+    },
+    {
+      "slug": "marketing-de-contenidos",
+      "tag": "Contenidos",
+      "title": "Marketing de contenidos: la estrategia que multiplica tu tráfico sin pagar por clic",
+      "metaDescription": "El marketing de contenidos genera 3 veces más leads que la publicidad pagada y cuesta un 62% menos. Guía práctica para implementarlo en tu negocio.",
+      "excerpt": "El contenido de calidad es el activo digital más rentable a largo plazo. Genera tráfico, construye autoridad y convierte — sin pagar por cada visita.",
+      "readingTime": "8 min",
+      "keyFocus": "content marketing, blog strategy, content calendar, pillar content, topic clusters, organic traffic",
+      "cta": {
+        "kicker": "¿Querés que tu contenido trabaje para vos 24/7?",
+        "headline": "Diseñamos tu estrategia de contenidos.",
+        "description": "Identificamos los temas que busca tu cliente ideal, creamos el plan editorial y medimos resultados reales — no métricas de vanidad.",
+        "button": "Empezar con contenidos"
+      },
+      "related": [
+        { "slug": "que-es-el-seo", "tag": "SEO", "date": "2026-06-01", "title": "¿Qué es el SEO? La guía que todo negocio necesita leer", "excerpt": "El 68% de las experiencias online empieza con una búsqueda. Entendé cómo funciona el SEO." },
+        { "slug": "metricas-marketing-digital", "tag": "Analytics", "date": "2026-04-07", "title": "Las métricas de marketing que realmente importan", "excerpt": "Likes, seguidores e impresiones no pagan facturas. Estas sí." }
+      ]
+    },
+    {
+      "slug": "google-my-business-guia",
+      "tag": "SEO Local",
+      "title": "Google My Business: cómo optimizar tu ficha para aparecer primero en búsquedas locales",
+      "metaDescription": "El 46% de las búsquedas en Google tienen intención local. Si tu ficha de Google My Business no está optimizada, estás perdiendo clientes cerca tuyo.",
+      "excerpt": "El 46% de todas las búsquedas tienen intención local. Una ficha de Google My Business bien optimizada puede ser el canal de adquisición más barato de tu negocio.",
+      "readingTime": "7 min",
+      "keyFocus": "Google My Business optimization, local SEO, Google Business Profile, local search ranking, reviews",
+      "cta": {
+        "kicker": "¿Tu negocio aparece cuando te buscan cerca?",
+        "headline": "Optimizamos tu presencia local en Google.",
+        "description": "Auditamos tu ficha, identificamos oportunidades y te posicionamos donde están tus clientes — en el mapa.",
+        "button": "Mejorar mi presencia local"
+      },
+      "related": [
+        { "slug": "que-es-el-seo", "tag": "SEO", "date": "2026-06-01", "title": "¿Qué es el SEO? La guía que todo negocio necesita leer", "excerpt": "El 68% de las experiencias online empieza con una búsqueda. Entendé cómo funciona el SEO." },
+        { "slug": "seo-vs-sem", "tag": "Estrategia", "date": "2026-04-21", "title": "SEO vs SEM: cuándo usar cada estrategia", "excerpt": "La respuesta honesta depende. Pero existen reglas claras para elegir." }
+      ]
+    },
+    {
+      "slug": "copywriting-que-vende",
+      "tag": "Copywriting",
+      "title": "Copywriting para negocios: cómo escribir textos que venden sin sonar agresivo",
+      "metaDescription": "El copy es el vendedor silencioso de tu sitio web. Aprendé las técnicas de copywriting persuasivo que convierten visitas en clientes — sin trucos baratos.",
+      "excerpt": "Tu sitio web tiene 8 segundos para convencer al visitante de que vale la pena quedarse. El copy es la diferencia entre rebote y conversión.",
+      "readingTime": "9 min",
+      "keyFocus": "copywriting, persuasive writing, sales copy, UX writing, conversion copywriting, CTA writing",
+      "cta": {
+        "kicker": "¿Tus textos convierten lo que deberían?",
+        "headline": "Reescribimos el copy de tu sitio.",
+        "description": "Analizamos cada página, identificamos los puntos de fricción y reescribimos los textos para convertir más visitantes en clientes.",
+        "button": "Mejorar mi copy"
+      },
+      "related": [
+        { "slug": "landing-pages-que-convierten", "tag": "Conversión", "date": "2026-07-07", "title": "Landing pages que convierten: los 7 elementos clave", "excerpt": "El 96% de los visitantes no convierte en su primera visita. Una landing bien diseñada cambia eso." },
+        { "slug": "redes-sociales-para-empresas", "tag": "Redes Sociales", "date": "2026-05-05", "title": "Redes sociales para empresas: deja de publicar y empieza a vender", "excerpt": "La mayoría publica sin estrategia y se pregunta por qué no crece." }
+      ]
+    },
+    {
+      "slug": "embudo-de-ventas-digital",
+      "tag": "Estrategia",
+      "title": "Embudo de ventas digital: cómo diseñar el recorrido del cliente que cierra solo",
+      "metaDescription": "Un embudo de ventas bien diseñado convierte extraños en clientes de forma sistemática. Aprendé cómo construir el tuyo con canales digitales.",
+      "excerpt": "La mayoría de los negocios invierte en atraer tráfico pero no tiene un sistema para convertirlo. El embudo de ventas es ese sistema.",
+      "readingTime": "8 min",
+      "keyFocus": "sales funnel, digital marketing funnel, TOFU MOFU BOFU, lead nurturing, conversion funnel",
+      "cta": {
+        "kicker": "¿Tu embudo está perdiendo clientes a mitad del camino?",
+        "headline": "Diseñamos tu embudo de ventas digital.",
+        "description": "Mapeamos el recorrido completo de tu cliente, identificamos dónde se pierden y construimos el sistema para que más lleguen a la compra.",
+        "button": "Diseñar mi embudo"
+      },
+      "related": [
+        { "slug": "seo-vs-sem", "tag": "Estrategia", "date": "2026-04-21", "title": "SEO vs SEM: cuándo usar cada estrategia", "excerpt": "La respuesta honesta depende. Pero existen reglas claras para elegir." },
+        { "slug": "google-ads-que-convierte", "tag": "Google Ads", "date": "2026-05-19", "title": "Cómo crear campañas de Google Ads que convierten", "excerpt": "El 60% del presupuesto en Google Ads se desperdicia. Estos son los errores más comunes." }
+      ]
+    },
+    {
+      "slug": "tiktok-para-empresas",
+      "tag": "Redes Sociales",
+      "title": "TikTok para empresas: cómo vender en la red social de mayor crecimiento",
+      "metaDescription": "TikTok tiene más de 1.500 millones de usuarios activos y el algoritmo más democrático de todas las redes sociales. Aprendé a usarlo para tu negocio.",
+      "excerpt": "TikTok no es solo para adolescentes. Es la red con el alcance orgánico más alto disponible hoy — y la mayoría de las empresas todavía no está ahí.",
+      "readingTime": "7 min",
+      "keyFocus": "TikTok for business, TikTok marketing strategy, short video content, TikTok algorithm, organic reach",
+      "cta": {
+        "kicker": "¿Querés aprovechar TikTok para tu negocio?",
+        "headline": "Construimos tu estrategia de video corto.",
+        "description": "Definimos el enfoque, el tipo de contenido y el calendario editorial para que empecés a crecer en TikTok desde el primer mes.",
+        "button": "Armar mi estrategia TikTok"
+      },
+      "related": [
+        { "slug": "redes-sociales-para-empresas", "tag": "Redes Sociales", "date": "2026-05-05", "title": "Redes sociales para empresas: deja de publicar y empieza a vender", "excerpt": "La mayoría publica sin estrategia y se pregunta por qué no crece." },
+        { "slug": "metricas-marketing-digital", "tag": "Analytics", "date": "2026-04-07", "title": "Las métricas de marketing que realmente importan", "excerpt": "Likes, seguidores e impresiones no pagan facturas. Estas sí." }
+      ]
+    },
+    {
+      "slug": "publicidad-en-instagram",
+      "tag": "Social Ads",
+      "title": "Publicidad en Instagram: cómo crear anuncios que generan clientes, no solo likes",
+      "metaDescription": "Instagram tiene más de 2 millones de anunciantes activos. La diferencia entre los que generan ventas y los que solo acumulan likes es la estrategia. Acá está.",
+      "excerpt": "El 70% de los usuarios de Instagram descubren nuevas marcas en la plataforma. Pero hacer publicidad en Instagram sin estrategia es tirar dinero.",
+      "readingTime": "8 min",
+      "keyFocus": "Instagram ads, Meta ads, Instagram advertising, social media advertising, paid social, Instagram campaigns",
+      "cta": {
+        "kicker": "¿Tus anuncios en Instagram no están dando resultados?",
+        "headline": "Auditamos tu cuenta de Meta Ads sin costo.",
+        "description": "Revisamos tu estructura de campañas, audiencias y creatividades, y te mostramos exactamente qué cambiar para mejorar tu ROAS.",
+        "button": "Solicitar auditoría Meta Ads"
+      },
+      "related": [
+        { "slug": "redes-sociales-para-empresas", "tag": "Redes Sociales", "date": "2026-05-05", "title": "Redes sociales para empresas: deja de publicar y empieza a vender", "excerpt": "La mayoría publica sin estrategia y se pregunta por qué no crece." },
+        { "slug": "google-ads-que-convierte", "tag": "Google Ads", "date": "2026-05-19", "title": "Cómo crear campañas de Google Ads que convierten", "excerpt": "El 60% del presupuesto en Google Ads se desperdicia. Estos son los errores más comunes." }
+      ]
+    },
+    {
+      "slug": "keyword-research-guia",
+      "tag": "SEO",
+      "title": "Keyword research paso a paso: cómo encontrar las palabras que busca tu cliente ideal",
+      "metaDescription": "El keyword research es la base de toda estrategia SEO exitosa. Aprendé cómo identificar las palabras clave correctas con herramientas gratuitas y pagas.",
+      "excerpt": "Elegir las keywords equivocadas es el error más común en SEO. Podés tener el mejor contenido del mundo y no aparecer porque apuntás a las palabras incorrectas.",
+      "readingTime": "9 min",
+      "keyFocus": "keyword research, keyword strategy, long tail keywords, search intent, keyword difficulty, Google Search Console",
+      "cta": {
+        "kicker": "¿Sabés a qué keywords apuntar en tu industria?",
+        "headline": "Hacemos el keyword research de tu negocio.",
+        "description": "Identificamos las palabras que busca tu cliente ideal, analizamos la competencia y te entregamos un plan de contenidos accionable.",
+        "button": "Empezar con keyword research"
+      },
+      "related": [
+        { "slug": "que-es-el-seo", "tag": "SEO", "date": "2026-06-01", "title": "¿Qué es el SEO? La guía que todo negocio necesita leer", "excerpt": "El 68% de las experiencias online empieza con una búsqueda. Entendé cómo funciona el SEO." },
+        { "slug": "marketing-de-contenidos", "tag": "Contenidos", "date": "2026-07-28", "title": "Marketing de contenidos: la estrategia que multiplica tu tráfico", "excerpt": "El contenido de calidad es el activo digital más rentable a largo plazo." }
+      ]
+    },
+    {
+      "slug": "velocidad-web-seo",
+      "tag": "SEO Técnico",
+      "title": "Velocidad web y SEO: por qué cada segundo de carga cuesta clientes",
+      "metaDescription": "Una web lenta es una web invisible. Google penaliza los sitios lentos en ranking y los usuarios los abandonan en segundos. Guía técnica para mejorar tu Core Web Vitals.",
+      "excerpt": "El 53% de los usuarios abandona un sitio que tarda más de 3 segundos en cargar. Y Google lo sabe — la velocidad es un factor directo de ranking.",
+      "readingTime": "7 min",
+      "keyFocus": "Core Web Vitals, page speed, LCP, CLS, FID, website performance, SEO technical optimization",
+      "cta": {
+        "kicker": "¿Sabés qué tan rápido (o lento) carga tu sitio?",
+        "headline": "Auditamos el rendimiento técnico de tu web.",
+        "description": "Medimos tus Core Web Vitals, identificamos los cuellos de botella y te entregamos un plan de optimización priorizado.",
+        "button": "Auditar mi sitio web"
+      },
+      "related": [
+        { "slug": "que-es-el-seo", "tag": "SEO", "date": "2026-06-01", "title": "¿Qué es el SEO? La guía que todo negocio necesita leer", "excerpt": "El 68% de las experiencias online empieza con una búsqueda. Entendé cómo funciona el SEO." },
+        { "slug": "metricas-marketing-digital", "tag": "Analytics", "date": "2026-04-07", "title": "Las métricas de marketing que realmente importan", "excerpt": "Likes, seguidores e impresiones no pagan facturas. Estas sí." }
+      ]
+    },
+    {
+      "slug": "marketing-b2b-digital",
+      "tag": "Estrategia",
+      "title": "Marketing B2B digital: cómo atraer empresas clientes con canales online",
+      "metaDescription": "El ciclo de venta B2B es largo y complejo. Aprendé qué canales digitales funcionan realmente para generar leads calificados en ventas entre empresas.",
+      "excerpt": "El 75% de los compradores B2B investiga online antes de contactar a un proveedor. Si no estás donde buscan, la competencia se lleva el negocio.",
+      "readingTime": "8 min",
+      "keyFocus": "B2B digital marketing, LinkedIn marketing, B2B lead generation, account-based marketing, B2B content strategy",
+      "cta": {
+        "kicker": "¿Buscás atraer empresas clientes con canales digitales?",
+        "headline": "Diseñamos tu estrategia B2B digital.",
+        "description": "Identificamos los canales correctos para tu industria y construimos un sistema para atraer y calificar leads empresariales de forma consistente.",
+        "button": "Crear mi estrategia B2B"
+      },
+      "related": [
+        { "slug": "seo-vs-sem", "tag": "Estrategia", "date": "2026-04-21", "title": "SEO vs SEM: cuándo usar cada estrategia", "excerpt": "La respuesta honesta depende. Pero existen reglas claras para elegir." },
+        { "slug": "embudo-de-ventas-digital", "tag": "Estrategia", "date": "2026-08-18", "title": "Embudo de ventas digital: cómo diseñar el recorrido que cierra solo", "excerpt": "La mayoría invierte en atraer tráfico pero no tiene sistema para convertirlo." }
+      ]
+    },
+    {
+      "slug": "tasa-de-conversion-cro",
+      "tag": "Conversión",
+      "title": "CRO: cómo duplicar las ventas de tu sitio sin aumentar el presupuesto publicitario",
+      "metaDescription": "El CRO (Conversion Rate Optimization) es el arte de hacer más con el mismo tráfico. Aprendé las técnicas que usan las empresas más rentables del mundo digital.",
+      "excerpt": "La mayoría de los sitios convierten entre el 1% y el 3% de sus visitas. Con optimización sistemática, ese número puede duplicarse o triplicarse.",
+      "readingTime": "8 min",
+      "keyFocus": "CRO, conversion rate optimization, A/B testing, heatmaps, user testing, UX optimization",
+      "cta": {
+        "kicker": "¿Cuánto estarías ganando con el doble de conversiones?",
+        "headline": "Optimizamos tu tasa de conversión.",
+        "description": "Analizamos el comportamiento de tus usuarios, identificamos los puntos de fuga y hacemos los cambios que mueven el número que importa: ventas.",
+        "button": "Mejorar mis conversiones"
+      },
+      "related": [
+        { "slug": "landing-pages-que-convierten", "tag": "Conversión", "date": "2026-07-07", "title": "Landing pages que convierten: los 7 elementos clave", "excerpt": "El 96% de los visitantes no convierte en su primera visita. Una landing bien diseñada cambia eso." },
+        { "slug": "metricas-marketing-digital", "tag": "Analytics", "date": "2026-04-07", "title": "Las métricas de marketing que realmente importan", "excerpt": "Likes, seguidores e impresiones no pagan facturas. Estas sí." }
+      ]
+    },
+    {
+      "slug": "automatizacion-de-marketing",
+      "tag": "Automatización",
+      "title": "Automatización de marketing: cómo hacer que tu negocio venda mientras dormís",
+      "metaDescription": "La automatización de marketing permite escalar sin contratar más personas. Aprendé qué procesos automatizar, qué herramientas usar y por dónde empezar.",
+      "excerpt": "Las empresas que usan automatización de marketing generan 451% más leads calificados. La tecnología para hacerlo está disponible para cualquier negocio, a cualquier tamaño.",
+      "readingTime": "9 min",
+      "keyFocus": "marketing automation, email automation, CRM, lead nurturing automation, marketing workflows",
+      "cta": {
+        "kicker": "¿Querés que tu marketing trabaje solo?",
+        "headline": "Implementamos tu sistema de automatización.",
+        "description": "Diseñamos los flujos, configuramos las herramientas y te entregamos un sistema que nutre leads y convierte clientes — sin intervención manual.",
+        "button": "Automatizar mi marketing"
+      },
+      "related": [
+        { "slug": "email-marketing-para-empresas", "tag": "Email Marketing", "date": "2026-07-14", "title": "Email marketing: cómo construir una lista que convierte", "excerpt": "El email tiene un ROI de $36 por cada $1 invertido. Pero el 80% lo usa mal." },
+        { "slug": "embudo-de-ventas-digital", "tag": "Estrategia", "date": "2026-08-18", "title": "Embudo de ventas digital: cómo diseñar el recorrido que cierra solo", "excerpt": "La mayoría invierte en atraer tráfico pero no tiene sistema para convertirlo." }
+      ]
+    },
+    {
+      "slug": "link-building-guia",
+      "tag": "SEO",
+      "title": "Link building en 2026: las estrategias que realmente funcionan (y las que te pueden penalizar)",
+      "metaDescription": "Los backlinks siguen siendo uno de los factores de ranking más importantes de Google. Aprendé las estrategias de link building efectivas y cuáles evitar.",
+      "excerpt": "El 91% de las páginas web no reciben tráfico orgánico de Google. La causa principal: cero backlinks. Acá las estrategias que construyen autoridad real.",
+      "readingTime": "8 min",
+      "keyFocus": "link building strategies, backlinks, domain authority, digital PR, guest posting, broken link building",
+      "cta": {
+        "kicker": "¿Tu sitio tiene la autoridad que necesita para rankear?",
+        "headline": "Construimos backlinks de calidad para tu sitio.",
+        "description": "Desarrollamos una estrategia de link building ética y sostenible para aumentar la autoridad de tu dominio y mejorar tu posicionamiento.",
+        "button": "Aumentar mi autoridad web"
+      },
+      "related": [
+        { "slug": "que-es-el-seo", "tag": "SEO", "date": "2026-06-01", "title": "¿Qué es el SEO? La guía que todo negocio necesita leer", "excerpt": "El 68% de las experiencias online empieza con una búsqueda. Entendé cómo funciona el SEO." },
+        { "slug": "marketing-de-contenidos", "tag": "Contenidos", "date": "2026-07-28", "title": "Marketing de contenidos: la estrategia que multiplica tu tráfico", "excerpt": "El contenido de calidad es el activo digital más rentable a largo plazo." }
+      ]
+    },
+    {
+      "slug": "google-shopping-para-ecommerce",
+      "tag": "Google Ads",
+      "title": "Google Shopping para ecommerce: cómo aparecer primero cuando alguien quiere comprar",
+      "metaDescription": "Google Shopping muestra tu producto con foto, precio y nombre de marca antes de que el usuario entre a tu sitio. Aprendé a configurarlo para maximizar ventas.",
+      "excerpt": "Google Shopping genera el 76% de los clics en búsquedas de productos en Google. Si tenés un ecommerce y no estás ahí, estás perdiendo ventas hoy.",
+      "readingTime": "7 min",
+      "keyFocus": "Google Shopping, Performance Max, Merchant Center, product feed optimization, ecommerce advertising",
+      "cta": {
+        "kicker": "¿Tu ecommerce ya está en Google Shopping?",
+        "headline": "Configuramos tus campañas de Shopping.",
+        "description": "Desde la configuración del Merchant Center hasta la optimización del feed de productos. Todo para que tus productos aparezcan cuando alguien está listo para comprar.",
+        "button": "Activar Google Shopping"
+      },
+      "related": [
+        { "slug": "google-ads-que-convierte", "tag": "Google Ads", "date": "2026-05-19", "title": "Cómo crear campañas de Google Ads que convierten", "excerpt": "El 60% del presupuesto en Google Ads se desperdicia. Estos son los errores más comunes." },
+        { "slug": "metricas-marketing-digital", "tag": "Analytics", "date": "2026-04-07", "title": "Las métricas de marketing que realmente importan", "excerpt": "Likes, seguidores e impresiones no pagan facturas. Estas sí." }
+      ]
+    },
+    {
+      "slug": "linkedin-para-empresas",
+      "tag": "LinkedIn",
+      "title": "LinkedIn para empresas: cómo generar leads B2B sin pagar publicidad",
+      "metaDescription": "LinkedIn tiene 1.000 millones de usuarios, el 80% toma decisiones de negocio. Aprendé a generar leads calificados con una estrategia orgánica en LinkedIn.",
+      "excerpt": "LinkedIn tiene el costo por lead más bajo de todas las plataformas para negocios B2B. Y el 97% de las marcas lo usa mal. Acá la estrategia que funciona.",
+      "readingTime": "7 min",
+      "keyFocus": "LinkedIn marketing, B2B LinkedIn strategy, LinkedIn organic reach, personal branding LinkedIn, LinkedIn lead generation",
+      "cta": {
+        "kicker": "¿Tu empresa está donde están tus clientes B2B?",
+        "headline": "Diseñamos tu estrategia de LinkedIn.",
+        "description": "Optimizamos tu perfil, definimos el tipo de contenido y construimos el sistema para atraer leads calificados de forma constante.",
+        "button": "Activar mi LinkedIn"
+      },
+      "related": [
+        { "slug": "marketing-b2b-digital", "tag": "Estrategia", "date": "2026-09-08", "title": "Marketing B2B digital: cómo atraer empresas clientes", "excerpt": "El 75% de los compradores B2B investiga online antes de contactar un proveedor." },
+        { "slug": "redes-sociales-para-empresas", "tag": "Redes Sociales", "date": "2026-05-05", "title": "Redes sociales para empresas: deja de publicar y empieza a vender", "excerpt": "La mayoría publica sin estrategia y se pregunta por qué no crece." }
+      ]
+    },
+    {
+      "slug": "youtube-ads-para-negocios",
+      "tag": "Google Ads",
+      "title": "YouTube Ads: cómo usar el video para generar clientes sin un presupuesto enorme",
+      "metaDescription": "YouTube es el segundo buscador más grande del mundo. Los anuncios en video son la herramienta más poderosa para construir marca y generar demanda. Guía práctica.",
+      "excerpt": "YouTube tiene más de 2.500 millones de usuarios activos. Y el costo por vista de sus anuncios sigue siendo el más bajo en publicidad digital. La oportunidad todavía está ahí.",
+      "readingTime": "7 min",
+      "keyFocus": "YouTube advertising, video ads, TrueView ads, YouTube marketing, video marketing strategy",
+      "cta": {
+        "kicker": "¿Querés usar video para crecer tu negocio?",
+        "headline": "Creamos y gestionamos tus campañas de YouTube.",
+        "description": "Desde la estrategia de video hasta la configuración de campañas y el análisis de resultados. Todo para que tu marca aparezca donde están tus clientes.",
+        "button": "Empezar con YouTube Ads"
+      },
+      "related": [
+        { "slug": "google-ads-que-convierte", "tag": "Google Ads", "date": "2026-05-19", "title": "Cómo crear campañas de Google Ads que convierten", "excerpt": "El 60% del presupuesto en Google Ads se desperdicia. Estos son los errores más comunes." },
+        { "slug": "tiktok-para-empresas", "tag": "Redes Sociales", "date": "2026-08-04", "title": "TikTok para empresas: cómo vender en la red de mayor crecimiento", "excerpt": "TikTok no es solo para adolescentes. Es la red con el mayor alcance orgánico disponible hoy." }
+      ]
+    },
+    {
+      "slug": "analítica-web-ga4",
+      "tag": "Analytics",
+      "title": "GA4 para negocios: cómo leer tus datos y tomar decisiones que mejoran resultados",
+      "metaDescription": "Google Analytics 4 es la herramienta gratuita más poderosa para entender a tus usuarios. Aprendé a interpretar los datos que realmente importan para tu negocio.",
+      "excerpt": "El 70% de los sitios web tiene Google Analytics instalado. Pero menos del 10% lo usa para tomar decisiones reales. Acá cómo cambiar eso.",
+      "readingTime": "8 min",
+      "keyFocus": "Google Analytics 4, GA4 reports, web analytics, data-driven marketing, attribution, conversion tracking",
+      "cta": {
+        "kicker": "¿Estás usando tus datos para crecer o solo para reportar?",
+        "headline": "Implementamos analítica que dice la verdad.",
+        "description": "Configuramos GA4 correctamente, creamos los reportes que importan y te enseñamos a tomar decisiones basadas en datos reales — no en intuición.",
+        "button": "Configurar mi analítica"
+      },
+      "related": [
+        { "slug": "metricas-marketing-digital", "tag": "Analytics", "date": "2026-04-07", "title": "Las métricas de marketing que realmente importan", "excerpt": "Likes, seguidores e impresiones no pagan facturas. Estas sí." },
+        { "slug": "seo-vs-sem", "tag": "Estrategia", "date": "2026-04-21", "title": "SEO vs SEM: cuándo usar cada estrategia", "excerpt": "La respuesta honesta depende. Pero existen reglas claras para elegir." }
+      ]
+    },
+    {
+      "slug": "estrategia-digital-desde-cero",
+      "tag": "Estrategia",
+      "title": "Estrategia de marketing digital desde cero: la guía para negocios que recién empiezan",
+      "metaDescription": "¿Por dónde empezar con el marketing digital si no tenés experiencia ni presupuesto enorme? Esta guía te da el orden correcto y las prioridades reales.",
+      "excerpt": "El primer error de los negocios que empiezan con marketing digital es hacer todo a la vez. La estrategia correcta es hacer pocas cosas bien, en el orden correcto.",
+      "readingTime": "10 min",
+      "keyFocus": "digital marketing strategy beginners, marketing plan, digital presence, channel selection, marketing budget",
+      "cta": {
+        "kicker": "¿Querés arrancar con el pie derecho?",
+        "headline": "Te ayudamos a construir tu estrategia digital.",
+        "description": "Analizamos tu negocio, identificamos los canales correctos para tu industria y diseñamos un plan de acción con presupuesto real y prioridades claras.",
+        "button": "Crear mi estrategia"
+      },
+      "related": [
+        { "slug": "seo-vs-sem", "tag": "Estrategia", "date": "2026-04-21", "title": "SEO vs SEM: cuándo usar cada estrategia", "excerpt": "La respuesta honesta depende. Pero existen reglas claras para elegir." },
+        { "slug": "metricas-marketing-digital", "tag": "Analytics", "date": "2026-04-07", "title": "Las métricas de marketing que realmente importan", "excerpt": "Likes, seguidores e impresiones no pagan facturas. Estas sí." }
+      ]
+    }
+  ]
+}

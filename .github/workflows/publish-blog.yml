@@ -1,0 +1,44 @@
+name: Publicar artículo de blog
+
+on:
+  schedule:
+    # Todos los lunes a las 13:00 UTC (10:00 AM Chile hora de verano)
+    - cron: '0 13 * * 1'
+  workflow_dispatch:
+    # También se puede ejecutar manualmente desde la pestaña Actions de GitHub
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Instalar dependencias
+        run: npm install --prefix scripts
+
+      - name: Generar y guardar artículo
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-article.js
+
+      - name: Commit y push
+        run: |
+          git config user.name "Güeregrove Blog Bot"
+          git config user.email "noreply@gueregrove.com"
+          git add blog/ scripts/topics.json
+          if git diff --staged --quiet; then
+            echo "Sin cambios (la cola puede estar vacía)."
+          else
+            SLUG=$(node -e "const t=JSON.parse(require('fs').readFileSync('scripts/topics.json')); console.log(t.published.at(-1).slug)")
+            git commit -m "feat(blog): publicar $SLUG"
+            git push
+          fi

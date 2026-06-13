@@ -1,0 +1,13 @@
+{
+  "name": "gueregrove-blog-generator",
+  "version": "1.0.0",
+  "description": "Auto-publishes SEO blog articles via Claude API",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "generate": "node generate-article.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.34.0"
+  }
+}
