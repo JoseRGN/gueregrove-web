@@ -11,17 +11,19 @@
         <polygon points="120,0 192,0 206,14 206,86 192,100 120,100 106,86 106,14"/>
       </clipPath>
     </defs>
+    <!-- Left G: opening at top-right, bar on left -->
     <g clip-path="url(#FL)" fill="#F2F2F2">
-      <rect width="100" height="21"/>
-      <rect width="21" height="100"/>
-      <rect y="79" width="100" height="21"/>
-      <rect x="60" y="58" width="40" height="42"/>
+      <rect width="100" height="26"/>
+      <rect width="26" height="100"/>
+      <rect y="74" width="100" height="26"/>
+      <rect x="50" y="48" width="50" height="26"/>
     </g>
+    <!-- Right G: mirrored, opening at top-left, bar on right -->
     <g clip-path="url(#FR)" fill="#F2F2F2">
-      <rect x="106" width="100" height="21"/>
-      <rect x="185" width="21" height="100"/>
-      <rect x="106" y="79" width="100" height="21"/>
-      <rect x="106" y="58" width="40" height="42"/>
+      <rect x="106" width="100" height="26"/>
+      <rect x="180" width="26" height="100"/>
+      <rect x="106" y="74" width="100" height="26"/>
+      <rect x="106" y="48" width="50" height="26"/>
     </g>
   </svg>
 </svg>

@@ -184,7 +184,7 @@ address { font-style: normal; }
 
 .logo-gg {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 1.75rem;
+  font-size: 2rem;
   color: var(--cream);
   line-height: 1;
   letter-spacing: 0;
@@ -192,6 +192,8 @@ address { font-style: normal; }
   display: inline-flex;
   align-items: center;
   flex-shrink: 0;
+  -webkit-text-stroke: 0.6px currentColor;
+  paint-order: stroke fill;
 }
 
 .logo-gg--footer {
