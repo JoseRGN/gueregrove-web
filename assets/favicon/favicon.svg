@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#000000"/>
-  <!-- GG mark: scaled to 460w × 224h, centered in 512×512 -->
-  <svg x="26" y="144" width="460" height="224" viewBox="0 0 206 100">
-    <defs>
-      <clipPath id="FL">
-        <polygon points="14,0 86,0 100,14 100,86 86,100 14,100 0,86 0,14"/>
-      </clipPath>
-      <clipPath id="FR">
-        <polygon points="120,0 192,0 206,14 206,86 192,100 120,100 106,86 106,14"/>
-      </clipPath>
-    </defs>
-    <!-- Left G: opening at top-right, bar on left -->
-    <g clip-path="url(#FL)" fill="#F2F2F2">
-      <rect width="100" height="26"/>
-      <rect width="26" height="100"/>
-      <rect y="74" width="100" height="26"/>
-      <rect x="50" y="48" width="50" height="26"/>
-    </g>
-    <!-- Right G: mirrored, opening at top-left, bar on right -->
-    <g clip-path="url(#FR)" fill="#F2F2F2">
-      <rect x="106" width="100" height="26"/>
-      <rect x="180" width="26" height="100"/>
-      <rect x="106" y="74" width="100" height="26"/>
-      <rect x="106" y="48" width="50" height="26"/>
-    </g>
+  <rect width="512" height="512" fill="#0A0A0A"/>
+  <!-- GG mark: two mirrored octagons, fill-rule="evenodd" punches G counters -->
+  <svg x="26" y="146" width="460" height="220" viewBox="0 0 208 100" preserveAspectRatio="xMidYMid meet">
+    <!-- Left G: opening to the right -->
+    <path fill="#F0EDE5" fill-rule="evenodd" d="
+      M16,0 L84,0 L100,16 L100,84 L84,100 L16,100 L0,84 L0,16 Z
+      M28,28 L100,28 L100,44 L50,44 L50,72 L28,72 Z
+    "/>
+    <!-- Right G: mirrored, opening to the left -->
+    <path fill="#F0EDE5" fill-rule="evenodd" d="
+      M124,0 L192,0 L208,16 L208,84 L192,100 L124,100 L108,84 L108,16 Z
+      M180,28 L108,28 L108,44 L158,44 L158,72 L180,72 Z
+    "/>
   </svg>
 </svg>
