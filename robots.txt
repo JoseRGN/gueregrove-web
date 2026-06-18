@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /node_modules/
+Disallow: /dev/
+Disallow: /scripts/
 
 # Sitemap
 Sitemap: https://gueregrove.com/sitemap.xml
