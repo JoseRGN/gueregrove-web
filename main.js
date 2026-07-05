@@ -41,7 +41,7 @@ document.addEventListener('keydown', e => {
 
 // ---- FADE-UP: IntersectionObserver ----
 const fadeEls = document.querySelectorAll(
-  '.service-card, .blog-card, .process-step, .stat, .faq-item, .about-image-wrap, .about-content'
+  '.service-card, .blog-card, .testimonial-card, .stat, .faq-item, .about-image-wrap, .about-content'
 );
 
 const observer = new IntersectionObserver((entries) => {
