@@ -93,9 +93,9 @@ if (form) {
     const nombre = form.querySelector('#nombre').value.trim();
     const email  = form.querySelector('#email').value.trim();
 
-    const msgRequired = form.dataset.msgRequired || 'Por favor completá los campos requeridos.';
+    const msgRequired = form.dataset.msgRequired || 'Por favor completa los campos requeridos.';
     const msgThanks   = form.dataset.msgThanks   || 'Gracias, te contactamos pronto.';
-    const msgError    = form.dataset.msgError    || 'Hubo un error. Intentá nuevamente o escribinos a hola@gueregrove.com';
+    const msgError    = form.dataset.msgError    || 'Hubo un error. Intenta nuevamente o escríbenos a hola@gueregrove.com';
     const txtSending  = btn.dataset.sending      || 'Enviando...';
     const txtSent     = btn.dataset.sent         || 'Mensaje enviado ✓';
     const txtDefault  = btn.textContent;

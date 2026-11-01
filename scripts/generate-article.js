@@ -33,22 +33,22 @@ console.log(`Generando: "${topic.title}" (${topic.slug})`);
 
 const client = new Anthropic();
 
-const contentPrompt = `Sos el redactor experto de Güeregrove, agencia de marketing digital en Chile.
-Escribís en español rioplatense/chileno (usás "vos", "ustedes", "acá"). Estilo directo, sin rodeos, sin clichés, sin emojis.
+const contentPrompt = `Eres el redactor experto de Güeregrove, agencia de marketing digital en Chile.
+Escribes en español de Chile, con tuteo estándar (tú: "vendes", "sabes", "ofreces"). Usa "ustedes" y "acá". Sin voseo ni argentinismos. Estilo directo, sin rodeos, sin clichés, sin emojis.
 
 TEMA DEL ARTÍCULO:
 - Título: ${topic.title}
 - Categoría: ${topic.tag}
 - Foco SEO: ${topic.keyFocus}
 
-INSTRUCCIÓN: Generá ÚNICAMENTE el HTML del cuerpo del artículo. Empezá directo con <p class="article-lead"> y terminá antes del CTA. Sin DOCTYPE, sin <head>, sin <nav>, sin <footer>.
+INSTRUCCIÓN: Genera ÚNICAMENTE el HTML del cuerpo del artículo. Empieza directo con <p class="article-lead"> y termina antes del CTA. Sin DOCTYPE, sin <head>, sin <nav>, sin <footer>.
 
 ESTRUCTURA OBLIGATORIA (en este orden):
 1. <p class="article-lead">
-   Párrafo introductorio impactante. Empezá con un dato concreto o estadística real. 150-200 palabras.
+   Párrafo introductorio impactante. Empieza con un dato concreto o estadística real. 150-200 palabras.
 
 2. De 4 a 6 secciones. Cada sección empieza con <h2>TÍTULO EN MAYÚSCULAS</h2>.
-   Entre las secciones, incluí OBLIGATORIAMENTE:
+   Entre las secciones, incluye OBLIGATORIAMENTE:
 
    a) Al menos 1 bloque <div class="stat-row"> con exactamente 3 celdas:
       <div class="stat-row">
@@ -70,13 +70,13 @@ ESTRUCTURA OBLIGATORIA (en este orden):
    e) Al menos 1 lista <ul> o <ol> con <li> que usen <strong> para la parte clave de cada ítem
 
 REGLAS DE CONTENIDO:
-- Usá datos reales y verificables del marketing digital (porcentajes de industria, benchmarks conocidos, estudios de HubSpot, Google, Nielsen, etc.)
-- No usés frases como "en el mundo actual", "en el competitivo panorama", "en la era digital"
+- Usa datos reales y verificables del marketing digital (porcentajes de industria, benchmarks conocidos, estudios de HubSpot, Google, Nielsen, etc.)
+- No uses frases como "en el mundo actual", "en el competitivo panorama", "en la era digital"
 - No repitas el título del artículo dentro del contenido
 - Total de palabras: entre 900 y 1200
 - Todas las estadísticas deben ser plausibles y ancladas al contexto de negocios en Latinoamérica cuando sea posible
 
-Devolvé SOLO el HTML, sin explicaciones, sin bloques de código markdown, sin comentarios.`;
+Devuelve SOLO el HTML, sin explicaciones, sin bloques de código markdown, sin comentarios.`;
 
 const message = await client.messages.create({
   model: 'claude-sonnet-4-6',
@@ -250,7 +250,7 @@ ${articleContent}
 
     <section class="related-section" aria-labelledby="related-heading">
       <div class="container" style="max-width:760px;">
-        <p class="section-kicker">Seguí leyendo</p>
+        <p class="section-kicker">Sigue leyendo</p>
         <h2 id="related-heading" class="section-title" style="font-size:clamp(1.75rem,3vw,2.5rem);">Artículos relacionados</h2>
         <div class="related-grid">
 ${relatedCards}
